@@ -1,0 +1,14 @@
+# Setup
+title:        Kevin Downs's Blog
+tagline:      A personal technical blog about .NET to databases, and everything in between.
+baseurl:      ""
+paginate:     10
+
+# About/contact
+author:
+  name:       Kevin Downs
+  url:        https://kevindowns.co.za
+
+# Gems
+gems:
+  - jekyll-paginate
