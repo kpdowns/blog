@@ -284,3 +284,16 @@ padding-top: 15px;
     margin-bottom: 25px;
   }
 }
+
+/* classes for post templates on main page */
+
+.post .post-sub-heading {
+      padding-bottom: 1em;
+    font-size: 0.8em;
+}
+
+.post-heading h2 {
+    margin-bottom: 0;
+}
+
+/* end classes for post templates on main page */
