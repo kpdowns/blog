@@ -12,7 +12,7 @@ title: {{ site.name }}
       <div class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a></div>
       <div class="post-sub-heading"><span class="post-published-date">{{ post.date | date_to_long_string }}</span> &nbsp; <span class="post-read-time"><i class="fa fa-clock-o" aria-hidden="true"></i>   
       {% assign words = post.content | number_of_words %}
-      {% if words < 275 %}
+      {% if words <= 275 %}
         1 minute
       {% else %}
         {{ words | divided_by:180 }} minutes

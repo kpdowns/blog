@@ -2,7 +2,6 @@
 layout: post
 title:  "Hello there..."
 date:   2017-05-21 04:50:00
-categories: main
 ---
 
 My name is Kevin Downs and I'm a software engineer located on the bottom of Africa. All content on this blog is, and will always be my opinion only and does not reflect the opinions of anyone I may be affiliated with. You can get in touch with me using the flashy icons at the top of these pages - please do, I'm always up for a chat. This is my first blog post, ironically, about setting up a pipeline for developing your own personal blog using the same technologies I'll be using for this one. 
