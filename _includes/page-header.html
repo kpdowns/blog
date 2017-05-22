@@ -1,9 +1,19 @@
 <section class="page-header">
+  <div class="header-container">
+    <div class="header-image">
+      <div class="cropped-image-container">
+        <img src="{{ site.url }}/assets/images/full-size-image.png"/>
+      </div>  
+      </div>
+  <div class="header-content">
   <h1 class="site-name">{{ site.title }}</h1>
-  <h2 class="site-tagline">{{ site.tagline }}</h2>
-  <div class="links">
-    <a href="{{ site.author.url }}">Home</a>
-    <a href="https://twitter.com/kevindwns">Twitter</a>
-    <a href="https://github.com/kpdowns">GitHub</a>
+  <h2 class="site-tagline site-tagline-small">Creator, Software Engineer, Lover of all things tech.</h2>
+  <h2 class="site-tagline">{{ site.tagline }}</h2>  
+  </div>
+  <div class="header-social-media">
+    <a href="{{ site.author.url }}"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/kevindwns"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://github.com/kpdowns"><i class="fa fa-github" aria-hidden="true"></i></a>
+  </div>
   </div>
 </section>

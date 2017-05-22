@@ -144,7 +144,7 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 2rem 1rem 0.5rem 1rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem 0.5rem 1rem; } }
 
-.site-name { margin-top: 0; margin-bottom: 0.1rem; }
+.site-name { margin-top: 0.1rem; margin-bottom: 0.1rem; color: #69a0a1; }
 @media screen and (min-width: 64em) { .site-name { font-size: 3.25rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .site-name { font-size: 2.25rem; } }
 @media screen and (max-width: 42em) { .site-name { font-size: 1.75rem; } }
@@ -209,4 +209,44 @@ a:hover { text-decoration: underline; }
     padding: 0 0.8rem;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.cropped-image-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+    -webkit-box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 1);
+    box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 1);
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.cropped-image-container { color: #fff; text-align: center; background: #272727;}
+@media screen and (min-width: 64em) { .page-header { padding: 2rem 3rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 2rem 1rem 0.5rem 1rem; } }
+@media screen and (max-width: 42em) { .cropped-image-container { margin: auto; } }
+
+h2.site-tagline.site-tagline-small {  display : none; }
+@media screen and (min-width: 64em) { h2.site-tagline.site-tagline-small { display: none; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { h2.site-tagline.site-tagline-small { display: none; } }
+@media screen and (max-width: 42em) { h2.site-tagline.site-tagline-small { display: block; } }
+
+h2.site-tagline {  display : block; }
+@media screen and (min-width: 64em) { h2.site-tagline { display: block; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { h2.site-tagline { display: block; } }
+@media screen and (max-width: 42em) { h2.site-tagline { display: none; } }
+
+.header-social-media a {
+    font-size: 2em;
+    padding: 1em;
+    color: #75a4a2;
 }
