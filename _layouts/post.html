@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
+
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="post-sub-heading"><span class="post-published-date">{{ page.date | date_to_long_string }}</span> &nbsp; <span class="post-read-time"><i class="fa fa-clock-o" aria-hidden="true"></i>   {% assign words = content | number_of_words %}
+  {% if words < 275 %}
+    1 minute
+  {% else %}
+    {{ words | divided_by:180 }} minutes
+  {% endif %} to read</span></div>
 
 {{ content }}
