@@ -1,0 +1,31 @@
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .btn {
+        font-size: .9rem;
+        padding: .6rem .9rem
+    }
+    .page-header {
+        padding: 2rem 1rem .5rem
+    }
+    .site-name {
+        font-size: 2.25rem
+    }
+    .site-tagline {
+        font-size: 1.15rem
+    }
+    .main-content {
+        font-size: 1rem;
+        padding: 2rem 4rem
+    }
+    .site-footer {
+        font-size: .9rem;
+        max-width: 90%
+    }
+    .cropped-image-container {
+        height: 300px;
+        margin: auto;
+        width: 300px
+    }
+    .header-container {
+        width: 95%
+    }
+}
