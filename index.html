@@ -22,7 +22,9 @@ title: {{ site.name }}
               {% endif %} to read
             </span>
           </div>
-          <div class="post-excerpt">{{ post.excerpt }}</div>
+          <div class="post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 100 }}
+          </div>
         </div>
 
         {% endfor %}

@@ -7,6 +7,12 @@ comments: true
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis viverra dapibus. Mauris sagittis ultricies eleifend. Mauris rhoncus est et erat ullamcorper sagittis. Duis tempus cursus lacus in tempus. Sed commodo elementum turpis, ac porttitor dui tincidunt nec. Donec congue accumsan neque, nec pharetra lectus pellentesque nec. Nam urna tellus, accumsan et nibh quis, porttitor dictum velit. Vestibulum feugiat commodo urna, in ornare urna sollicitudin in. Proin vehicula iaculis leo sit amet pulvinar. Nunc tempor urna in mattis ultricies. In hac habitasse platea dictumst. Cras luctus dui elit, id maximus orci scelerisque at. Curabitur eu velit nulla. Nullam finibus at ligula a lacinia. Vestibulum arcu dolor, porttitor eget justo a, pretium commodo felis.
 
+{% highlight c# %}
+public class Test {
+    public string TestProperty { get; set; }    
+}
+{% endhighlight %}
+
 ## In sodales leo id auctor vehicula.
 In nec dictum mauris. Cras nisi felis, interdum nec elit et, tempor condimentum arcu. Mauris quis tellus ac risus congue viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam laoreet venenatis sagittis. Vestibulum ac est eleifend, placerat tellus in, lobortis purus. Quisque non tempus eros. Integer nisi ante, eleifend eget lorem eu, rhoncus commodo risus. Duis lacinia ex ut interdum feugiat. Vestibulum consectetur nec mauris ac condimentum. Curabitur gravida ante sit amet nisi blandit, blandit vulputate velit efficitur. Donec non interdum sem.
 
