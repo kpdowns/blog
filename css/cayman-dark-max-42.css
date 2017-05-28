@@ -1,0 +1,35 @@
+@media screen and (max-width: 42em) {
+    .btn {
+        display: block;
+        font-size: .9rem;
+        padding: .75rem;
+        width: 100%
+    }
+    .btn+.btn {
+        margin-left: 0;
+        margin-top: 1rem
+    }
+    .page-header {
+        padding: 2rem 1rem .5rem
+    }
+    .site-name {
+        font-size: 1.75rem
+    }
+    .site-tagline {
+        font-size: 1rem
+    }
+    .main-content {
+        font-size: 1rem;
+        padding: 2rem 1rem
+    }
+    .site-footer {
+        font-size: .9rem;
+        max-width: 90%
+    }
+    .cropped-image-container {
+        margin: auto
+    }
+    .header-container {
+        width: 95%
+    }
+}

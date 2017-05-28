@@ -1,0 +1,30 @@
+--- 
+layout: default 
+---
+
+<h1>{{ page.title }}</h1>
+<div class="post-sub-heading"><span class="post-published-date"><i class="fa fa-pencil-square" aria-hidden="true"></i> {{ page.date | date_to_long_string }}</span> &nbsp; <span class="post-read-time"><i class="fa fa-clock-o" aria-hidden="true"></i>   {% assign words = content | number_of_words %}
+  {% if words <= 275 %}
+    1 minute
+  {% else %}
+    {{ words | divided_by:180 }} minutes
+  {% endif %} to read</span></div>
+
+{{ content }} {% if page.comments %} {% if jekyll.environment == 'production' %}
+<hr/>
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function() {
+        this.page.url = "{{ post.url | prepend: site.author.url }}";
+        this.page.identifier = "{{ page.id }}";
+    };
+
+    (function() {
+        var d = document,
+            s = d.createElement('script');
+        s.src = 'https://kevindowns-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %} {% endif %}
