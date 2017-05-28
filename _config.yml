@@ -12,3 +12,10 @@ author:
 # Gems
 gems:
   - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - deploy.bat
