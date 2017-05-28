@@ -9,14 +9,14 @@ title: {{ site.name }}
     {% for post in paginator.posts %}
     
     <div class="post">
-      <div class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a></div>
-      <div class="post-sub-heading"><span class="post-published-date">{{ post.date | date_to_long_string }}</span> &nbsp; <span class="post-read-time"><i class="fa fa-clock-o" aria-hidden="true"></i>   
+      <div class="post-heading"><h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></div>
+      <div class="post-sub-heading"><span class="post-published-date"><i class="fa fa-pencil-square" aria-hidden="true"></i> {{ post.date | date_to_long_string }}</span> &nbsp; <span class="post-read-time"><i class="fa fa-clock-o" aria-hidden="true"></i>   
       {% assign words = post.content | number_of_words %}
       {% if words <= 275 %}
         1 minute
       {% else %}
         {{ words | divided_by:180 }} minutes
-      {% endif %}
+      {% endif %} to read
       </span></div>
       <div class="post-excerpt">{{ post.excerpt }}</div>
     </div>
@@ -28,14 +28,9 @@ title: {{ site.name }}
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous disabled">Previous</span>
+    <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Newer posts</a>
   {% endif %}
-  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next disabled">Next</span>
+    <a href="{{ paginator.next_page_path }}" class="next">Older posts &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
   {% endif %}
 </div>
