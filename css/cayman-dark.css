@@ -1,7 +1,8 @@
 :root {
     --anchor-color: #44aac1;
     --anchor-text-decoration-color: var(--header-text-color);
-    --visited-anchor-color: #FF7800;
+    --visited-anchor-color: #fd8559;
+    --visited-anchor-hover-color: #FF7800;
 
     --accented-text-color: #44aac1;
     --primary-text-color: #414648;
@@ -166,6 +167,10 @@ body {
     margin-bottom: .8em
 }
 
+.cropped-image-container a {
+    margin: 0;
+}
+
 .cropped-image-container {
     -moz-box-shadow: 3px 5px 15px 0 rgba(0, 0, 0, 1);
     -webkit-box-shadow: 3px 5px 15px 0 rgba(0, 0, 0, 1);
@@ -188,7 +193,8 @@ body {
 }
 
 .main-content {
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin: 0 auto;
 }
 
 .main-content :first-child {
@@ -370,9 +376,10 @@ body {
 .site-footer {
     border-top: solid 1px #c5c6c7;
     margin: auto;
-    max-width: 80%;
+    max-width: 100%;
     padding: 1rem;
-    text-align: center
+    text-align: center;
+    font-size: .9rem;
 }
 
 .site-footer-credits {

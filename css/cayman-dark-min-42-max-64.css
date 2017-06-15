@@ -14,12 +14,8 @@
 
     .main-content {
         font-size: 1rem;
-        padding: 1.75rem 4rem
-    }
-
-    .site-footer {
-        font-size: .9rem;
-        max-width: 90%
+        padding: 1.75rem 4rem 0rem;
+        margin: 0 auto;
     }
 
     .cropped-image-container {
