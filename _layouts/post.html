@@ -4,7 +4,7 @@ title: page.title
 
 ---
 
-<h1>{{ page.title }}</h1>
+<h1 class="post-heading">{{ page.title }}</h1>
 <div class="post-sub-heading"><span class="post-published-date"><i class="fa fa-pencil-square" aria-hidden="true"></i> {{ page.date | date_to_long_string }}</span> &nbsp; <span class="post-read-time"><i class="fa fa-clock-o" aria-hidden="true"></i>   {% assign words = content | number_of_words %}
   {% if words <= 275 %}
     1 minute
