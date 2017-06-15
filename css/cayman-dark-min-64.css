@@ -2,40 +2,45 @@
     .btn {
         padding: .75rem 1rem
     }
+
     .site-name {
         font-size: 3.25rem
     }
+
     .site-tagline {
         font-size: 1.25rem
     }
+
     .main-content {
-        font-size: 1rem;
+        font-size: 0.97rem;
         margin: 0 auto;
         max-width: 64rem;
-        padding: 2rem 6rem
+        padding: 1.75rem 6rem
     }
+
     .site-footer {
         font-size: .9rem
     }
-    .page-header {
-        padding: 2rem 3rem
-    }
+
     .copy {
         float: right;
         width: 550px
     }
+
     .cropped-image-container {
         height: 300px;
         width: 300px
     }
+
     .header-image {
         margin-bottom: 25px;
-        padding-top: 15px;
-        width: 38%;
+        padding-top: 20px;
+        width: 40%;
         float: left;
     }
+    
     .page-header {
-        padding: 2rem 3rem;
-        height: 400px;
+        height: 370px;
+        padding-top: 1rem;
     }
 }

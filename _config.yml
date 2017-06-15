@@ -19,3 +19,12 @@ exclude:
   - README.md
   - .gitignore
   - deploy.bat
+
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+highlighter: rouge
