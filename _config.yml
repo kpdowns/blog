@@ -1,6 +1,6 @@
 # Setup
 title:        Kevin Downs
-tagline:      A personal technical blog about .NET to databases, and everything in between.
+description:      Hi, my name is Kevin Downs. I'm a software engineer by both trade and passion hailing from the South of Africa. I'm interested in all things technology, programming, and design. Below you'll find my ramblings and guides on topics such as .NET to databases and everything in between.
 baseurl:      ""
 paginate:     5
 paginate_path: "/page/:num"
@@ -13,6 +13,7 @@ author:
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-feed
 
 exclude:
   - Gemfile
@@ -20,7 +21,6 @@ exclude:
   - README.md
   - .gitignore
   - deploy.bat
-
 
 markdown: kramdown
 
