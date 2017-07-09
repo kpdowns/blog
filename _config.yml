@@ -29,3 +29,4 @@ kramdown:
   hard_wrap: false
 
 highlighter: rouge
+show_drafts: false

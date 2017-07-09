@@ -4,9 +4,13 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-    <div class="posts">
+    <div class="posts"> 
+      {% if paginator == null %}
+        <div class="no-published-posts">
+          There are no published posts yet. Please check back later.
+        </div>
+      {% else %}
         {% for post in paginator.posts %}
-
         <div class="post">
           <div class="post-heading">
               <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -25,8 +29,8 @@ title: {{ site.name }}
             {{ post.excerpt | strip_html | truncatewords: 100 }}
           </div>
         </div>
-
         {% endfor %}
+      {% endif %}      
     </div>
 </div>
 
