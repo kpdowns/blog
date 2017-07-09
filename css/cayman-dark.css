@@ -399,3 +399,52 @@ figure.highlight {
     margin-right: 0;
 }
 
+
+
+@media screen and (min-width: 55em) and (max-width: 64em) {
+    .btn {
+        font-size: .9rem;
+        padding: .6rem .9rem
+    }
+
+    .site-name {
+        font-size: 2.25rem
+    }
+
+    .site-tagline {
+        font-size: 1.15rem
+    }
+
+    .main-content {
+        font-size: 1rem;
+        padding: 1.75rem 4rem;
+        margin: 0 auto;
+    }
+
+    .cropped-image-container {
+        height: 275px;
+        margin: auto;
+        width: 275px
+    }
+
+    .header-container {
+        width: 95%
+    }
+
+    .site-tagline {
+    font-size: 17px !important;
+}
+
+    .copy {
+        float: right;
+        width: 64%;
+    }
+
+    .header-image {
+    float:left;
+}
+
+    .page-header {
+        height: 310px;
+    }
+}

@@ -20,7 +20,7 @@
 
     .copy {
         float: right;
-        width: 550px
+        width: 63%;
     }
 
     .cropped-image-container {
@@ -31,7 +31,7 @@
     .header-image {
         margin-bottom: 25px;
         padding-top: 20px;
-        width: 40%;
+        width: 37%;
         float: left;
     }
     

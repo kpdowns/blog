@@ -1,4 +1,4 @@
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 55em) {
     .btn {
         font-size: .9rem;
         padding: .6rem .9rem
@@ -19,9 +19,7 @@
     }
 
     .cropped-image-container {
-        height: 300px;
         margin: auto;
-        width: 300px
     }
 
     .header-container {
