@@ -1,3 +1,6 @@
+AddCharset UTF-8 .html .css .js
+DefaultLanguage en-US
+
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://kevindowns.co.za/$1 [R,L]
