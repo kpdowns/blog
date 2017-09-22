@@ -11,9 +11,10 @@ author:
   url:        https://kevindowns.co.za
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-minifier
 
 exclude:
   - Gemfile
