@@ -286,7 +286,7 @@ padding-top:.8em
 
 .page-header a {
 color:var(--anchor-color);
-font-size:2em;
+font-size:1.9em;
 margin:.5em
 }
 
@@ -525,7 +525,7 @@ margin-right:0
 }
 
 .header-social-media a {
-margin:8%
+margin:5%
 }
 
 @media screen and (min-width: 55em) and (max-width: 64em) {
