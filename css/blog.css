@@ -422,7 +422,8 @@ body {
 }
 
 .main-content img {
-    max-width: 100%
+    max-width: 100%;
+    height: auto;
 }
 
 .main-content p {
@@ -654,8 +655,8 @@ div.no-published-posts {
     .main-content {
         font-size: .97rem;
         margin: 0 auto;
-        max-width: 64rem;
-        padding: 1.75rem 6rem
+        max-width: 78rem;
+        padding: 1.75rem 1rem
     }
     .copy {
         float: right;
