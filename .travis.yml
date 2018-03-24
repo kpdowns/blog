@@ -5,7 +5,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true #speeds up installation of HTML proofer, see https://www.rusiczki.net/2018/01/25/use-travis-to-build-and-deploy-your-jekyll-site-through-ssh/
 install:
-- bundle install
+- bundle install --jobs=3
 branches:
   only:
   - master
