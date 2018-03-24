@@ -10,10 +10,20 @@ author:
   name:       Kevin Downs
   url:        https://kevindowns.co.za
 
+logo: /assets/images/profile.svg
+
+social:
+  name: Kevin Downs
+  links:
+    - https://twitter.com/kevindwns
+    - https://www.facebook.com/kevindwns
+    - https://github.com/kpdowns
+
 plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-minifier
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
