@@ -1,6 +1,6 @@
 # Setup
 title:        Kevin Downs
-description:      Hi, my name is Kevin Downs. I'm a software engineer by both trade and passion hailing from the South of Africa. I'm interested in all things technology, programming, and design. Below you'll find my ramblings and guides on topics such as .NET to databases and everything in between.
+description:  Hi, my name is Kevin Downs. I'm a software engineer by both trade and passion hailing from the South of Africa. I'm interested in all things technology, programming, and design. Below you'll find my ramblings and guides on topics such as .NET to databases and everything in between.
 baseurl:      ""
 paginate:     5
 paginate_path: "/page/:num"
@@ -10,8 +10,7 @@ author:
   name:       Kevin Downs
   url:        https://kevindowns.co.za
 
-# Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
 
