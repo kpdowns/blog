@@ -71,12 +71,12 @@ This adds the **ftptools**, defined in the **rake-contrib** library, as a depend
 Finally, you can use the following snippet as part of a task in your Rakefile to connect to your FTP server and upload the generated files that were built as result of executing the `jekyll build` command:
 
 ```ruby
-    Dir.chdir('_site') do
-        Rake::FtpUploader.connect('/', ENV['FTP_HOST'], ENV['FTP_USER'], ENV['FTP_PASS']) do |ftp|
-            ftp.verbose = true
-            ftp.upload_files("./**/*")
-        end
+Dir.chdir('_site') do
+    Rake::FtpUploader.connect('/', ENV['FTP_HOST'], ENV['FTP_USER'], ENV['FTP_PASS']) do |ftp|
+        ftp.verbose = true
+        ftp.upload_files("./**/*")
     end
+end
 ```
 
 The code above first changes the working directory of Rake to be the generated `_site` directory.  
