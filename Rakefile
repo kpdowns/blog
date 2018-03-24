@@ -11,9 +11,11 @@ task :default do
     puts "Build completed"
     
     puts "Uploading _site to server"
-    Rake::FtpUploader.connect('/', ENV['FTP_HOST'], ENV['FTP_USER'], ENV['FTP_PASS']) do |ftp|
-        ftp.verbose = true # gives you some output
-        ftp.upload_files("./_site/**/*")
-      end
+    Dir.chdir('_site') do
+        Rake::FtpUploader.connect('/', ENV['FTP_HOST'], ENV['FTP_USER'], ENV['FTP_PASS']) do |ftp|
+            ftp.verbose = true # gives you some output
+            ftp.upload_files("./**/*")
+        end
+    end
     puts "Successfully deployed site to server"
 end
