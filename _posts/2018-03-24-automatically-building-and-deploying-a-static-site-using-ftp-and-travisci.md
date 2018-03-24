@@ -2,6 +2,7 @@
 layout: post
 title:  "Automatically building and deploying Jekyll sites using FTP and Travis CI"
 categories: ftp travis-ci how-to jekyll continuous-integration
+comments: true
 ---
 
 [Travis CI](https://travis-ci.org/) is a continuous integration service that can be set up to automatically build your code whenever you change a file. One of it's biggest draws, at least for me, is that it's free for open source projects (that means any publicly accessible repositories on GitHub). It's also relatively straightforward and powerful. Because of this, it allows for some interesting workflows.
