@@ -1,3 +1,12 @@
+AddCharset UTF-8 .html .css .js
+DefaultLanguage en-US
+
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://kevindowns.co.za/$1 [R,L]
+
+<IfModule mod_expires.c>
+ExpiresActive On 
+ExpiresDefault "access plus 1 week"
+ExpiresByType image/x-icon "access plus 1 year"
+</IfModule>

@@ -13,6 +13,7 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-minifier
 
 exclude:
   - Gemfile

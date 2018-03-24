@@ -6,10 +6,13 @@ A repository containing all code and content for my personal blog. Made with ins
 * Ruby version > 2.00
 * WinSCP for deployment
 * Environment variables set with deployment credentials
+* `bundler` for installing bundles. 
+
+## Installing pre-requisites
+* To install bundler, execute `gem install bundler`. 
+* Once bundler is installed, install dependencies for the blog by running `bundler install`.
 
 ## Building and serving the site
-
-To install dependencies for the blog run `bundler install`.
 
 Use `jekyll build` to build the site. `jekyll serve` is used to serve the site locally from a development server. 
 
