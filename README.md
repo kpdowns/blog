@@ -1,4 +1,4 @@
-# Blog
+# Blog [![Build Status](https://travis-ci.org/kpdowns/blog.svg?branch=master)](https://travis-ci.org/kpdowns/blog)
 A repository containing all code and content for my personal blog. Made with inspiration from the [Jekyll Cayman theme](https://github.com/pietromenna/jekyll-cayman-theme) provided under the Creative Commons license. Styles and general details were modified. Please see [here](https://creativecommons.org/licenses/by/4.0/) for the license under which this was acquired.
 
 ## Pre-requisites
