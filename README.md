@@ -4,8 +4,6 @@ A repository containing all code and content for my personal blog. Made with ins
 ## Pre-requisites
 * Jekyll
 * Ruby version > 2.00
-* WinSCP for deployment
-* Environment variables set with deployment credentials
 * `bundler` for installing bundles. 
 
 ## Installing pre-requisites
@@ -15,5 +13,3 @@ A repository containing all code and content for my personal blog. Made with ins
 ## Building and serving the site
 
 Use `jekyll build` to build the site. `jekyll serve` is used to serve the site locally from a development server. 
-
-To deploy to [https://www.kevindowns.co.za](https://www.kevindowns.co.za) run `deploy.bat`. This will build the site and deploy using FTP where the credentials and details are stored in local environment variables.
