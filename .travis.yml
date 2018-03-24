@@ -3,3 +3,6 @@ rvm:
 - 2.4.2
 install:
 - bundle install
+branches:
+  only:
+  - master
