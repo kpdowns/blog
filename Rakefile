@@ -11,7 +11,7 @@ task :default do
     puts "Build completed"
     
     puts "Uploading _site to server"
-    uploader = Rake::FtpUploader.new('/', ENV['RAKE_ENV'], ENV['RAKE_ENV'], ENV['RAKE_ENV'])
+    uploader = Rake::FtpUploader.new('/', ENV['FTP_HOST'], ENV['FTP_PASS'], ENV['FTP_USER'])
     uploader.upload_files('./_site/*.*')
     puts "Successfully deployed site to server"
 end
