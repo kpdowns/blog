@@ -12,6 +12,12 @@ title: page.title
     {{ words | divided_by:180 }} minutes
   {% endif %} to read</span></div>
 
+  <ul class="tags">
+      {% for tag in page.tags %}
+      <li><span>{{ tag }}</span></li>
+      {% endfor %}
+  </ul>
+
 {{ content }} 
 
 {% if page.comments %} 

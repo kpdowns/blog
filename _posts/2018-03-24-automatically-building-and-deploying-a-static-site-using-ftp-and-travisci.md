@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automatically building and deploying Jekyll sites using FTP and Travis CI"
-categories: ftp travis-ci how-to jekyll continuous-integration
+tags: ftp travis-ci how-to jekyll continuous-integration
 comments: true
 ---
 
